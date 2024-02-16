@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlphaMetric Linguistics</title>
+    <meta name="description" content="Explore AlphaMetric Linguistics (AML) – a cutting-edge language generator that transforms English characters into unique number mappings. Each visit generates a new seed, creating distinct languages for secure communication. With tredecillions of possible combinations, AML offers an uncrackable code system. Speak in a language with more permutations than grains of sand, making your messages virtually impossible to decipher. Try AML for a revolutionary approach to secure and private communication.">
+    <link rel="icon" href="k.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>AlphaMetric Linguistics</h1>
+        
+        <div class="section">
+            <label for="seed">Enter Seed:</label>
+            <input type="text" id="seed" placeholder="Enter seed (optional)">
+            <button onclick="generateCharacterToNumber()">Generate Mapping</button>
+            <pre id="assignment"></pre>
+        </div>
+
+        <div class="section">
+            <label for="input">Enter Numbers (comma-separated):</label>
+            <input type="text" id="input" placeholder="Enter numbers">
+            <button onclick="convertNumbersToCharacters()">Convert to Characters</button>
+        </div>
+
+        <div class="section" style="margin-top: 10px;">
+            <label for="charInput">Enter Characters:</label>
+            <input type="text" id="charInput" placeholder="Enter characters">
+            <button onclick="convertCharactersToNumbers()">Convert to Numbers</button>
+        </div>
+
+        <div id="output"></div>
+
+        <div class="facts-section">
+            <h2>Fascinating Facts</h2>
+            <p>With the increased character set of 160, there are <strong>160 factorial (160!)</strong> possible seed combinations, which is:</p>
+            <p class="large-number">11405662382994746824714684902687255322469689942580153013782929815899404700484688221628932707481732304003467611031460129911756841532258750256966024069515597621768453862564027993426199156590122862681805014498553774932295806509676080893780449801208732929268713974566211669677668545171068838631270767804025300007980188</p>
+            <p>This astronomical number represents the chances of someone finding your seed—it's practically impossible.</p>
+            <p>Even if the FBI attempted the implausible task of trying 1 seed per second, it would take <strong>2.94 x 10^269 years</strong> to crack it.</p>
+            <p>To put things in perspective, the estimated number of grains of sand on Earth's beaches is about <strong>7.5 x 10^18</strong>.</p>
+            <p>This means the number of possible seeds is vastly greater than the number of grains of sand on all the beaches on Earth.</p>
+            <p>Additionally, it surpasses the estimated number of stars in the observable universe, which is roughly <strong>1 x 10^24</strong>.</p>
+            <p>So, communicating with AlphaMetric Linguistics is like finding a specific grain of sand in the entire world or a specific star in the universe—it's highly secure!</p>
+        </div>
+
+        <div class="usage-section">
+            <h2>How to Use AlphaMetric Linguistics</h2>
+            <p>1. <strong>Generate Mapping:</strong> Enter a seed (optional) and click "Generate Mapping" to get a unique character to number mapping.</p>
+            <p>2. <strong>Convert to Characters:</strong> Enter numbers (comma-separated) and click "Convert to Characters" to decode them into characters using the generated mapping.</p>
+            <p>3. <strong>Convert to Numbers:</strong> Enter characters and click "Convert to Numbers" to encode them into numbers using the generated mapping.</p>
+            <p>4. <strong>Secure Communication:</strong> Share the seed and mapping with someone to enable secure communication—only those with the same seed can understand the messages.</p>
+            <p>Feel free to experiment with different seeds to create unique mappings and explore the vast world of AlphaMetric Linguistics!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="track.js"></script>
+
+    <footer style="text-align: center; margin-top: 20px;">MADE BY ECLISPE</footer>
+</body>
+
+</html>
